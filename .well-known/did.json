@@ -1,0 +1,15 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:riteshkparouha-cyber.github.io",
+  "verificationMethod": [{
+    "id": "did:web:riteshkparouha-cyber.github.io#key-0",
+    "type": "JsonWebKey",
+    "controller": "did:riteshkparouha-cyber.github.io",
+    "publicKeyJwk": {"kty": "EC", "crv": "P-256", "x": "2HsvsHRiFhuU614yTGsX-K-N4g_6oMVdAazTZDyTecs", "y": "mcLBVO5-f8NEE4b9pCWtaF3TGB5ASN-PRWYGx4vtS10"}
+  }],
+  "authentication":  ["did:web:riteshkparouha-cyber.github.io#key-0"],
+  "assertionMethod": ["did:web:riteshkparouha-cyber.github.io#key-0"]
+}
